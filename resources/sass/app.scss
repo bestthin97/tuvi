@@ -1,0 +1,26 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+$fa-font-path: "../fonts";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~admin-lte/dist/css/adminlte.css';
+
+@import '~font-awesome/scss/font-awesome.scss';
+@import '~font-awesome/scss/_icons.scss';
+@import '~font-awesome/scss/_list.scss';
+@import '~font-awesome/scss/_core.scss';
+@import '~font-awesome/scss/_stacked.scss';
+@import '~font-awesome/scss/_variables.scss';
+@import '~font-awesome/scss/_screen-reader.scss';
+@import '~font-awesome/scss/_mixins.scss';
+@import '~font-awesome/scss/_larger.scss';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
